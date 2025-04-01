@@ -1,0 +1,193 @@
+@media only screen and (width: 1366px) and (height: 768px), (width: 1280px) and (height: 720px) {
+  .hello-me > h1, .hello-me > h2 {
+    font-size: 6.75rem;
+    line-height: 4.875rem;
+  }
+  .My-pic {
+    padding: 40px;
+    transform: rotate(-51deg) translate(232px, -101px) scale(1.2);
+  }
+  .My-pic > img {
+    transform: rotate(51deg) translate(-26px, 27px);
+  }
+  .content-conatiner {
+    padding-bottom: 15px;
+  }
+  .hello-me .into-wel {
+    padding-left: 54px;
+    font-size: 1.7rem;
+  }
+  .hello-me .into-wel::before {
+    width: 40px;
+  }
+}
+@media only screen and (width: 1024px) and (height: 576px) {
+  .hello-me .into-wel {
+    font-size: 1.2rem;
+    padding-left: 45px;
+  }
+  .hello-me .into-wel::before {
+    width: 30px;
+  }
+  .hello-me > h1, .hello-me > h2 {
+    font-size: 4.75rem;
+    line-height: 3.875rem;
+    margin-bottom: 2.125rem;
+    margin-top: 1.938rem;
+  }
+  .hello-me > h1::before {
+    width: 4.5rem;
+    height: 4.188rem;
+  }
+  .hello-me > h2 {
+    padding-bottom: 0;
+  }
+  .say-hi {
+    padding-top: 1.125rem;
+  }
+  .say-hi .say-hiBtn {
+    padding: 0.8rem 1.5rem;
+  }
+  .My-pic {
+    padding: 29px;
+    transform: rotate(-56deg) translate(196px, -35px) scale(1.2);
+    top: 123px;
+    right: 0;
+  }
+  .My-pic > img {
+    transform: rotate(56deg) translate(33px, 19px);
+    top: -6px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .content-conatiner {
+    padding-top: 56px;
+    padding-bottom: 20px;
+  }
+  .landing-pageWrpr .warning-message {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .enter-button > img {
+    transform: none !important;
+    max-width: 250px;
+    margin-top: 200px;
+  }
+  .about-meBG {
+    height: calc(100% - 120px);
+  }
+  .about-meWrpr img {
+    max-width: 100%;
+    margin-bottom: 13px;
+    max-height: 295px;
+  }
+  .Welcome-video {
+    transform: none;
+    max-width: 100%;
+    top: 22px;
+    left: 24px;
+    right: 23px;
+  }
+}
+@media only screen and (max-width: 999px) {
+  .My-pic {
+    top: -300px;
+    padding: 14px;
+    height: unset;
+    transform: rotate(-41deg) translate(465px, -85px) scale(1.5);
+  }
+  .My-pic > img {
+    top: -22px;
+    right: -53px;
+    transform: rotate(39deg) translate(11px, 43px);
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+  }
+  .content-conatiner {
+    padding-top: 140px;
+    padding-bottom: 125px;
+  }
+  .name-bgAnimation {
+    display: none;
+  }
+  .about-meBG {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 744px) {
+  .hello-me > h1, .hello-me > h2 {
+    font-size: 5.75rem;
+    line-height: 4.875rem;
+  }
+  .hello-me > h1 {
+    margin-bottom: 2.125rem;
+  }
+  .hello-me > h1::before {
+    width: 5.5rem;
+    height: 5.188rem;
+  }
+}
+@media only screen and (max-device-width: 700px) {
+  .hello-me .into-wel {
+    font-size: 1rem;
+    padding-left: 55px;
+  }
+  .hello-me .into-wel::before {
+    width: 35px;
+  }
+  .hello-me > h1, .hello-me > h2 {
+    font-size: 3.75rem;
+    line-height: 3.875rem;
+  }
+  .hello-me > h1 {
+    margin-bottom: 0.125rem;
+  }
+  .hello-me > h1::before {
+    width: 3.5rem;
+    height: 3.188rem;
+    left: -10px;
+  }
+  .hello-me > p {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  .say-hi {
+    padding-top: 2.125rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .say-hi .res-down, .say-hi .say-hiBtn {
+    padding: 0.5rem 0.25rem;
+    display: inline-flex;
+    width: calc(50% - 10px);
+    justify-content: center;
+  }
+  .say-hi .res-down:last-child, .say-hi .say-hiBtn:last-child {
+    margin-right: 0;
+  }
+  .My-pic {
+    top: -300px;
+    padding: 26px;
+    height: unset;
+    transform: rotate(-50deg) translate(50%, -2%) scale(1);
+    right: 0;
+  }
+  .My-pic > img {
+    top: -55px;
+    right: -77px;
+    transform: rotate(50deg) translate(5%, -13%);
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 28px;
+  }
+  .content-conatiner {
+    padding-bottom: 70px;
+  }
+  .enter-button > img {
+    margin-top: 0;
+  }
+  .swipe-inMobile {
+    display: block;
+  }
+}/*# sourceMappingURL=Responsive.css.map */
