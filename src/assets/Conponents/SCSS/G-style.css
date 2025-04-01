@@ -669,6 +669,15 @@ header .navbar .navbar-toggler:focus:not(:focus-visible) {
   border: solid thin #FFF;
 }
 
+.skills .skill-legend ul {
+  display: flex;
+}
+.skills .skill-legend ul li {
+  list-style: none;
+  width: 22px;
+  height: 22px;
+}
+
 /* - Responsive - */
 @media only screen and (width: 1366px) and (height: 768px), (width: 1280px) and (height: 720px) {
   .hello-me > h1, .hello-me > h2 {

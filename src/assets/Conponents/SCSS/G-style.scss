@@ -801,6 +801,19 @@ header {
   border: solid thin #FFF;
 }
 
+.skills{
+  .skill-legend{
+    ul{
+      display: flex;
+      li{
+        list-style: none;
+        width: 22px;
+        height: 22px;
+      }
+    }
+
+  }
+}
 
 
 /* - Responsive - */
